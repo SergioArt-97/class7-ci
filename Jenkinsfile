@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // This checks out the code from the repository.
-                git clone "https://github.com/SergioArt-97/class7-ci.git"
+                git(url: 'https://github.com/EduardUsatchev/class7-ci.git', branch: 'main')
             }
         }
         stage('Run Script') {
