@@ -1,4 +1,3 @@
-please explain to me what does this jenkinsfile does?
 pipeline {
     agent any
 
